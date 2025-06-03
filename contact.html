@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        /* Add the CSS styling here */
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        nav li {
+            float: left;
+        }
+
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav li a:hover {
+            background-color: #111;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="schdule.html">Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Contact Us</h1>
+    </header>
+    <main>
+        <a href="mailto:akandedavsun00@gmail.com" target="_blank">Email Address</a>
+        <a href="https://github.com/Davidsundaya/TechCon_HTML" target="_blank">Social Media</a>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.8973336032877!2d-0.9702681242052982!3d51.44167931550335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48769b4236a051db%3A0x8db31a04afd27d47!2s42%20Bourne%20Ave%2C%20Reading!5e0!3m2!1sen!2suk!4v1748980700738!5m2!1sen!2suk" 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+
+        </iframe>
+    <h2> Contact Us</h2>
+    <form action="/submit-form" method="post">
+        <!-- Form elements go here -->
+        <label for="username">Name:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@domain.com">
+
+        <label for="textarea">Message</label>
+        <input type="textarea" id="textarea" name="textarea" placeholder="Type your message here">
+        <button type="submit">Submit</button>
+
+    </form>
+    </main>
+    <footer>
+        <p>Copyright @ 2025</p>
+    </footer>
+</body>
+</html>
